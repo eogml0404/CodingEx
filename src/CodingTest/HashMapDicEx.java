@@ -28,7 +28,7 @@ public class HashMapDicEx {
                 System.out.print("찾고 싶은 단어는?");
                 String eng = sc.next();
                 if(dic.get(eng)==null){
-                    System.out.println("그런단어는 없습니다.");
+                    System.out.println("그런단어는 없습니다..");
                 }
                 else{
                     System.out.println(dic.get(eng));
