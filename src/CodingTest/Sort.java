@@ -3,31 +3,34 @@ package CodingTest;
 import java.util.Scanner;
 
 public class Sort {
-    public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-        int[] intArr = new int[10];
-        for(int i=0; i<10; i++){
-            intArr[i] = sc.nextInt();
+
+    public static void main(String[] args){
+        int[] arr = new int[10];
+        int temp;
+        Scanner scanner = new Scanner(System.in);
+        for(int i =0; i<arr.length; i++){
+        
+            arr[i] = scanner.nextInt();
+
+
         }
 
-        int temp;
-
-        for(int i=0; i<10; i++){
-            for(int j=0; j<i; j++){
-                if(intArr[j]>intArr[j+1]){
-                    temp = intArr[j];
-                    intArr[j] = intArr[j+1];
-                    intArr[j+1] = temp;
-
+        for(int i=0; i<arr.length; i++){
+            for(int j=0; j<arr.length-1;j++){
+                if(arr[j]>arr[j+1]){
+                    temp = arr[j];
+                    arr[j] = arr[j+1];
+                    arr[j+1] = temp;
                 }
-           
+
+
             }
         }
-        for(int i : intArr){
-            System.out.print(i + " ");
+        for(int i = 0; i<arr.length; i++){
+            System.out.print(arr[i] + " ");
         }
         
 
-        sc.close();
+        scanner.close();
     }
 }
