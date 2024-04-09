@@ -7,7 +7,7 @@ public class Array2D {
     int sum = 0;
         for(int i = 0; i < 3; i++){
             for(int j = 0; j<4; j++){
-                 arr2[i][j] = (int)(Math.random()*10);           
+                arr2[i][j] = (int)(Math.random()*10);           
            
                 sum += arr2[i][j]; 
                 System.out.print(arr2[i][j] + " ");
@@ -17,5 +17,6 @@ public class Array2D {
         }
         System.out.println("합은 " + sum);
 
+        System.out.println(arr2.length);
     }
 }
