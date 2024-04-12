@@ -3,5 +3,34 @@
     // Hover to view descriptions of existing attributes.
     // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
     "version": "0.2.0",
-    "configurations": []
+    "configurations": [
+        {
+            "type": "java",
+            "name": "P11724_연결요소의갯수",
+            "request": "launch",
+            "mainClass": "CodingTest.Baek.P11724_연결요소의갯수",
+            "projectName": "CodingTest"
+        },
+        {
+            "type": "java",
+            "name": "P1541_잃어버린괄호",
+            "request": "launch",
+            "mainClass": "CodingTest.Baek.P1541_잃어버린괄호",
+            "projectName": "CodingTest"
+        },
+        {
+            "type": "java",
+            "name": "P11047_동전개수최솟값",
+            "request": "launch",
+            "mainClass": "CodingTest.Baek.P11047_동전개수최솟값",
+            "projectName": "CodingTest"
+        },
+        {
+            "type": "java",
+            "name": "p11286_절댓값힙",
+            "request": "launch",
+            "mainClass": "CodingTest.Baek.p11286_절댓값힙",
+            "projectName": "CodingTest"
+        }
+    ]
 }
